@@ -1,0 +1,4 @@
+- model: App.Category
+  pk: 1
+  fields:
+    name: Shapes

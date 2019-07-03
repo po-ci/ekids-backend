@@ -1,0 +1,81 @@
+[
+  {
+    "model": "App.category",
+    "pk": 1,
+    "fields": {
+      "name": "Shapes"
+    }
+  },
+  {
+    "model": "App.categoryitem",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "en": "square",
+      "es": "cuadrado",
+      "img": "square.png",
+      "snd": "square.mp3",
+      "col": ""
+    }
+  },
+  {
+    "model": "App.categoryitem",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "en": "circle",
+      "es": "circulo",
+      "img": "circle.png",
+      "snd": "circle.mp3",
+      "col": ""
+    }
+  },
+  {
+    "model": "App.categoryitem",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "en": "triangle",
+      "es": "triangulo",
+      "img": "triangle.png",
+      "snd": "triangle.mp3",
+      "col": ""
+    }
+  },
+  {
+    "model": "App.categoryitem",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "en": "rectangle",
+      "es": "rectangulo",
+      "img": "rectangle.png",
+      "snd": "rectangle.mp3",
+      "col": ""
+    }
+  },
+  {
+    "model": "App.categoryitem",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "en": "diamond",
+      "es": "diamond",
+      "img": "diamond.png",
+      "snd": "diamond.mp3",
+      "col": ""
+    }
+  },
+  {
+    "model": "App.categoryitem",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "en": "star",
+      "es": "estrella",
+      "img": "star.png",
+      "snd": "star.mp3",
+      "col": ""
+    }
+  }
+]
