@@ -15,7 +15,7 @@ from datetime import timedelta
 
 from conf import config
 
-MEDIA_ROOT = 'C:\\Users\\Dylan\\Desktop\\Proyectos\\ProyectosCris\\ekids\\ekids-backend\\media'
+MEDIA_ROOT = 'C:\\Users\\crist\\Documents\\Proyectos\\CDI\\ekids-backend\\media'
 MEDIA_URL = '/media/'
 MEDIA_HOST = config.API_HOST + MEDIA_URL
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'graphene_django',
     'Modules.Users',
+    'Modules.App',
     'corsheaders',
     'graphql_jwt.refresh_token.apps.RefreshTokenConfig',
 
@@ -87,12 +88,12 @@ WSGI_APPLICATION = 'Api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ekids',
-        'USER': 'root',
-        'PASSWORD': '',
+        'USER': 'ekids',
+        'PASSWORD': 'ekids',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '5432',
     }
 }
 
