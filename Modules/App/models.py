@@ -1,5 +1,5 @@
 from django.db import models
-from .Models import Category, CategoryItem
+from .Models import Category, Vocabulary
 
 
 # Create your models here.

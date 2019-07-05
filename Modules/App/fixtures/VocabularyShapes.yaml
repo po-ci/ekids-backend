@@ -1,42 +1,42 @@
-- model: App.CategoryItem
+- model: App.Vocabulary
   fields:
     en: square
     es: cuadrado
     img: square.png
     snd: square.mp3
-    category: 1
-- model: App.CategoryItem
+    cat: 1
+- model: App.Vocabulary
   fields:
     en: circle
     es: circulo
     img: circle.png
     snd: circle.mp3
-    category: 1
-- model: App.CategoryItem
+    cat: 1
+- model: App.Vocabulary
   fields:
     en: triangle
     es: triangulo
     img: triangle.png
     snd: triangle.mp3
-    category: 1
-- model: App.CategoryItem
+    cat: 1
+- model: App.Vocabulary
   fields:
     en: rectangle
     es: rectangulo
     img: rectangle.png
     snd: rectangle.mp3
-    category: 1
-- model: App.CategoryItem
+    cat: 1
+- model: App.Vocabulary
   fields:
     en: diamond
     es: diamond
     img: diamond.png
     snd: diamond.mp3
-    category: 1
-- model: App.CategoryItem
+    cat: 1
+- model: App.Vocabulary
   fields:
     en: star
     es: estrella
     img: star.png
     snd: star.mp3
-    category: 1
+    cat: 1

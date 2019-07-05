@@ -6,8 +6,8 @@ class BaseManager(models.Manager):
     pass
 
 
-class CategoryItem(models.Model):
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+class Vocabulary(models.Model):
+    cat = models.ForeignKey(Category, on_delete=models.CASCADE)
     en = models.CharField(max_length=50, null=True)
     es = models.CharField(max_length=50, null=True)
     img = models.ImageField(upload_to="images", max_length=100, null=True)

@@ -86,14 +86,25 @@ WSGI_APPLICATION = 'Api.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'ekids',
+#         'USER': 'ekids',
+#         'PASSWORD': 'ekids',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ekids',
-        'USER': 'ekids',
-        'PASSWORD': 'ekids',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'db_ekids',
+        'USER': 'root',
+        'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '3306',
     }
 }
 
