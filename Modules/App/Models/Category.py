@@ -6,7 +6,10 @@ class BaseManager(models.Manager):
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=50, null=False, unique=True)
+    en = models.CharField(max_length=50, null=False, unique=True)
+    es = models.CharField(max_length=50, null=False, unique=True)
+    enDesc = models.CharField(max_length=150, null=False, unique=True)
+    esDesc = models.CharField(max_length=150, null=False, unique=True)
 
     def __str__(self):
         return self.name
